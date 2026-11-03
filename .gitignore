@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project virtual environment, local model/download caches, and secrets
+.venv/
+.cache/
+.huggingface/
+.torch/
+model_cache/
+hf_cache/
+.env.*
+secrets/
+*.pem
+*.key
